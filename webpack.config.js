@@ -8,6 +8,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     publicPath: 'dist'
   },
+  devServer: {
+    publicPath: '/dist/'
+  },
   module: {
     rules: [
       {
